@@ -1,5 +1,5 @@
 {
-  "name": "levanter@5.2.3",
+  "name": "lokuwa@5.2.3",
   "description": "",
   "keywords": ["noedjs"],
   "success_url": "/",
@@ -25,14 +25,14 @@
       "value": "."
     },
     "SESSION_ID": {
-      "description": "session id",
+      "description": "22_7_d7dc_a143_c77b",
       "required": true,
       "value": ""
     },
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "❤️,LyFE"
+      "value": "❤️,lokuwa"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -113,7 +113,7 @@
       "value": "true"
     },
     "PERSONAL_MESSAGE": {
-      "description": "Send a Welcome message on personal chat",
+      "description": "°⭕`ɴᴀᴍᴇ:||ᴏꜱʜᴀᴅᴀ´|:🥷💙°⭕•𝗻𝗶𝗰𝗸 𝗻𝗮𝗺𝗲-):ʟᴏᴋᴜᴡᴀװ•˚ˢ⭕ᴀɢᴇ:||18||:🐣🌻⭕ꜰᴏʀᴍ:||ɢᴀʟʟᴀ",
       "required": false,
       "value": "null"
     },
@@ -134,6 +134,7 @@
     "web": {
       "quantity": 1,
       "size": "basic"
-    }
+      
+    }"mode": "public/praiwet" 
   }
 }
