@@ -88,15 +88,15 @@ A simple WhatsApp User bot.
    FORCE_LOGOUT = false
    BRAINSHOP = 159501,6pq8dPiYt7PdqHz3
    MAX_UPLOAD = 200
-   REJECT_CALL = false
-   SUDO = 989876543210
+   REJECT_CALL = enabled
+   SUDO = 94779186252
    TZ = Asia/Kolkata
    VPS = true
    AUTO_STATUS_VIEW = true
    SEND_READ = true
    AJOIN = true
-   DISABLE_START_MESSAGE = false
-   PERSONAL_MESSAGE = null" > config.env
+   DISABLE_START_MESSAGE = enabled 
+   PERSONAL_MESSAGE = private" > config.env
    ```
 
    - [Read More](https://github.com/lyfe00011/whatsapp-bot-md/wiki/Environment_Variables)
