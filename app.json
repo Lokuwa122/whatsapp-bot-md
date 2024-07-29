@@ -1,13 +1,13 @@
 {
-  "name": "levanter@5.2.3",
-  "description": "",
+  "name": "lokuwa@5.2.3",
+  "description": "https://wa.me/+94779186252?text=LOKUWA",
   "keywords": ["noedjs"],
   "success_url": "/",
   "env": {
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
       "required": false,
-      "value": "false"
+      "value": "enabled"
     },
     "LOG_MSG": {
       "description": "Show whatsapp msgs in log",
@@ -32,7 +32,7 @@
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "❤️,LyFE"
+      "value": "❤️,lokuwa"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -45,7 +45,7 @@
     "RMBG_KEY": {
       "description": "API key from remove.bg, required for plugin rmbg",
       "required": false,
-      "value": "null"
+      "value": "enabled"
     },
     "LANGUAG": {
       "description": "Default Language for tts or trt",
@@ -60,12 +60,12 @@
     "FORCE_LOGOUT": {
       "description": "In Some scenario have to logout web, Only such case make this true and back to false after logout.",
       "required": false,
-      "value": "false"
+      "value": "enabled"
     },
     "DISABLE_BOT": {
       "description": "Example : jid,jid,... where bot not works in both ways.",
       "required": false,
-      "value": "null"
+      "value": "disable"
     },
     "ANTILINK_MSG": {
       "description": "Message send when antilink and action is kick.",
@@ -90,37 +90,37 @@
     "SS_TOKEN": {
       "description": "token from https://app.screenshotapi.net/dashboard",
       "required": false,
-      "value": ""
+      "value": "enabled"
     },
     "REJECT_CALL": {
       "description": "auto reject call, if set as true",
       "required": false,
-      "value": "false"
+      "value": "enabled"
     },
     "AUTO_STATUS_VIEW": {
       "description": "view others status",
       "required": false,
-      "value": "false"
+      "value": "enabled"
     },
     "SEND_READ": {
       "description": "send blue tick",
       "required": false,
-      "value": "false"
+      "value": "enabled"
     },
     "AJOIN": {
       "description": "Accept Group join request(Group privacy)",
       "required": false,
-      "value": "true"
+      "value": "enabled"
     },
     "PERSONAL_MESSAGE": {
       "description": "Send a Welcome message on personal chat",
       "required": false,
-      "value": "null"
+      "value": "enabled"
     },
     "DISABLE_START_MESSAGE": {
       "description": "Disable start Message",
       "required": false,
-      "value": "false"
+      "value": "enabled"
     }
   },
   "addons": [
